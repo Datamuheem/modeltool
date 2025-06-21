@@ -1,0 +1,91 @@
+# Page snapshot
+
+```yaml
+- region "Notifications (F8)":
+  - list
+- img
+- heading "DataModel Studio" [level=1]
+- paragraph: Visual Data Modeling
+- heading "Components" [level=3]
+- img
+- text: Entity
+- img
+- text: Association
+- img
+- text: Aggregation
+- img
+- text: Composition
+- img
+- text: Inheritance
+- heading "Project Explorer" [level=3]
+- button:
+  - img
+- img
+- text: Customer Management
+- img
+- text: customer_management_model.py
+- button "Save Model":
+  - img
+  - text: Save Model
+- button "Export Code":
+  - img
+  - text: Export Code
+- button "Undo":
+  - img
+- button "Redo":
+  - img
+- button "Zoom Out":
+  - img
+- text: 100%
+- button "Zoom In":
+  - img
+- button "Grid":
+  - img
+  - text: Grid
+- img
+- text: Valid Model
+- button "AI Assistant":
+  - img
+  - text: AI Assistant
+- img
+- button "zoom in":
+  - img
+- button "zoom out":
+  - img
+- button "fit view":
+  - img
+- button "toggle interactivity":
+  - img
+- img
+- link "React Flow attribution":
+  - /url: https://reactflow.dev
+  - text: React Flow
+- text: Drag components from the sidebar to create your data model
+- tablist:
+  - tab "Properties" [selected]
+  - tab "Code"
+  - tab "AI Chat"
+- tabpanel "Properties":
+  - heading "Entity Properties" [level=3]
+  - text: Name
+  - textbox: NewEntity
+  - text: Table Name
+  - textbox "Database table name"
+  - text: Description
+  - textbox "Entity description..."
+  - heading "Attributes" [level=3]
+  - button "Add":
+    - img
+    - text: Add
+  - textbox: id
+  - button:
+    - img
+  - combobox: int
+  - checkbox "Primary Key" [checked]:
+    - img
+  - text: Primary Key
+  - checkbox "Required" [checked]:
+    - img
+  - text: Required
+- tabpanel "AI Chat"
+```
